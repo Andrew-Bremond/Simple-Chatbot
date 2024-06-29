@@ -2,7 +2,7 @@ import openai
 import asyncio
 from openai import OpenAI
 
-openai.api_key = "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"
+# openai.api_key = "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"
 
 async def get_response(prompt):
     client = openai.AsyncOpenAI(api_key=openai.api_key)
